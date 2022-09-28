@@ -49,7 +49,7 @@ public class Firsttest
 	}
 			
 	
-	@Test
+	//@Test
 	public void checkurl()
 	{
 		
