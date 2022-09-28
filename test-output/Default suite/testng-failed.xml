@@ -7,6 +7,7 @@
         <methods>
           <include name="checkurl"/>
           <include name="setup"/>
+          <include name="titlecheck"/>
           <include name="end"/>
         </methods>
       </class> <!-- Myapplication.EcommercewithPlaywright.Firsttest -->

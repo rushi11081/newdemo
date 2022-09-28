@@ -12,7 +12,6 @@ import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Firsttest 
 {
@@ -39,7 +38,8 @@ public class Firsttest
 	{	
 		
 	String txt= page.title();
-		System.out.println(txt);
+		
+	System.out.println(txt);
 		
 		String test="Amazon.com. Spend less. Smile more.";
 	
@@ -54,7 +54,7 @@ public class Firsttest
 	{
 		
 		page.url();
-		Assert.assertEquals(page.url(),"https://www.amazon.com/");
+		Assert.assertEquals(page.url(),"https://www.amazon.com");
 	}
 	
 		
