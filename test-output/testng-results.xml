@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-28T17:13:45 IST" name="Suite" finished-at="2022-09-28T17:13:52 IST" duration-ms="7055">
+  <suite started-at="2022-09-28T17:41:11 IST" name="Suite" finished-at="2022-09-28T17:41:18 IST" duration-ms="7521">
     <groups>
     </groups>
-    <test started-at="2022-09-28T17:13:45 IST" name="Test" finished-at="2022-09-28T17:13:52 IST" duration-ms="7055">
+    <test started-at="2022-09-28T17:41:11 IST" name="Test" finished-at="2022-09-28T17:41:18 IST" duration-ms="7521">
       <class name="Myapplication.EcommercewithPlaywright.Firsttest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:13:45 IST" name="setup" finished-at="2022-09-28T17:13:52 IST" duration-ms="6751" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:41:11 IST" name="setup" finished-at="2022-09-28T17:41:18 IST" duration-ms="7281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkurl()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:13:52 IST" name="checkurl" finished-at="2022-09-28T17:13:52 IST" duration-ms="21" status="FAIL">
+        <test-method signature="checkurl()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:41:18 IST" name="checkurl" finished-at="2022-09-28T17:41:18 IST" duration-ms="25" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.amazon.com] but found [https://www.amazon.com/]]]>
@@ -59,11 +59,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkurl -->
-        <test-method signature="titlecheck()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:13:52 IST" name="titlecheck" finished-at="2022-09-28T17:13:52 IST" duration-ms="139" status="PASS">
+        <test-method signature="titlecheck()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:41:18 IST" name="titlecheck" finished-at="2022-09-28T17:41:18 IST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titlecheck -->
-        <test-method is-config="true" signature="end()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:13:52 IST" name="end" finished-at="2022-09-28T17:13:52 IST" duration-ms="64" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:Myapplication.EcommercewithPlaywright.Firsttest@4229bb3f]" started-at="2022-09-28T17:41:18 IST" name="end" finished-at="2022-09-28T17:41:18 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
